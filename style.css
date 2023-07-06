@@ -157,6 +157,15 @@ header {
 .card3{
   max-width: 300px;
 }
+.card1 a{
+  text-decoration: none;
+}
+.card2 a{
+  text-decoration: none;
+}
+.card3 a{
+  text-decoration: none;
+}
 .smalltxt{
   position: relative;
   top: 50rem;
@@ -182,6 +191,9 @@ header {
  }
  .linguagens{
   font-size: 1rem;
+}
+a{
+  text-decoration: none;
 }
 .cards{
   display: flex;
@@ -212,4 +224,24 @@ header {
   font-size: 0.7rem;
 }
 }
-/* Esperando Updates */
+/* Seção Webdesenvolvimento */
+.titleweb{
+  font-size: 3rem;
+}
+
+/* Seção desenvolvimento mobile */
+.mobiletitle{
+  font-size: 3rem;
+}
+
+/* Rodapé*/
+@media screen and (max-width: 730px) {
+ footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .social img{
+   width: 15%;
+ }
+}
